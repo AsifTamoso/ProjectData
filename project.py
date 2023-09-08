@@ -32,7 +32,6 @@ app.layout = html.Div(
         
         dcc.Tabs([
             dcc.Tab(label='Members Vs Orig. Memb. Boys Group', children=[
-                dcc.Graph(figure=fig1),
                 html.Label("Select X-axis Column"),
                 html.Br(),
                 dcc.Dropdown(
