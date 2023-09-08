@@ -5,7 +5,7 @@ import plotly.express as px
 app = Dash(__name__)
 server = app.server
 
-app.title = "MCM7003 Data Visualization Project"
+app.title = "MCM7003 Data Visualization Demo"
 
 df = pd.read_csv('https://raw.githubusercontent.com/AsifTamoso/kpop/main/kpop_idols_boy_groups.csv')
 dfGirl = pd.read_csv('https://raw.githubusercontent.com/AsifTamoso/kpop/main/kpop_idols_girl_groups.csv')
